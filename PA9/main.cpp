@@ -29,14 +29,14 @@ int main(int argc, char argv[])
 		std::cout << test[i] << ", ";
 #pragma endregion Code used in initial file setup to ensure RenderWindow is working properly
 
-	// Iterator for bubble sort
+	// Iterator for selection sort
 	int b = 0, bMin = 0;
 
 	// Array of rectangle objects to print to the screen
 	sf::RectangleShape items[30];
 
 	// Create new test window (500 pixels by 1200 pixels)      (Title of Window)
-	sf::RenderWindow testWindow(sf::VideoMode(1200, 500), "Bubble Sort Algorithm Example");
+	sf::RenderWindow testWindow(sf::VideoMode(1200, 500), "Selection Sort Algorithm Example");
 
 	// Run while the window is open
 	while (testWindow.isOpen())
