@@ -1,3 +1,12 @@
+/*******************************************************************************
+ * Programmers: Drew Evensen		                                           *
+ * Class: CptS 122				                                               *
+ * Programming Assignment: 9	                                               *
+ * Date: 12/07/22                                                              *
+ *                                                                             *
+ * Description:																   *
+ *******************************************************************************/
+
 #include <SFML/Graphics.hpp>// External Library
 #include <iostream>
 #include <random>
