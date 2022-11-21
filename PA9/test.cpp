@@ -79,11 +79,12 @@ void graphicsTest()
 		// Create each rectangle item
 		for (int i = 0; i < 30; i++)
 		{
-			// SFML Rectangle takes a SFML Vector 2, meaning a pair of 2 floating point numbers
+			// SFML Rectangle takes a SFML Vector 2, meaning a pair of 2 floating point numbers; the pixel width and length
 			items[i] = sf::RectangleShape(sf::Vector2f(40.f, (float)test[i]));
 			// SFML Rectangle member function setFillColor takes a static constant Color for the requested color
 			// Can find available colors under the sf::Color class
 			items[i].setFillColor(sf::Color::White);
+			// SFML Rectangle member function setOrigin changes the origin of the image (top left corner of image) to the two given pixel coordinates
 			items[i].setOrigin(0.f, test[i] - 500.f);
 
 			// Mark each changed rectangle red
@@ -102,6 +103,7 @@ void graphicsTest()
 		for (int i = 0; i < 30; i++)
 		{
 			// Shift each rectangle to the correct position before drawing
+			// SFML Rectangle member function move adds the given pixel values to the rectangle's origin value
 			items[i].move(i * 40.f, 0.f);
 			testWindow.draw(items[i]);
 		}
