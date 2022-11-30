@@ -1,14 +1,23 @@
+# gitignore for C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
 
-.vs/PA9/v17/ipch/AutoPCH/4a9a80323af18ec/MAIN.ipch
-.vs/PA9/v17/Browse.VC.opendb
-.vs/PA9/v17/Browse.VC.db-wal
-.vs/PA9/v17/Browse.VC.db-shm
-.vs/PA9/v17/Browse.VC.db
-.vs/PA9/v17/.suo
-.vs/PA9/FileContentIndex/d53483bf-1acf-401c-9a32-c14f331d5e26.vsidx
-.vs/PA9/FileContentIndex/80bdf377-d9a1-4f4d-983b-da4b700b637b.vsidx
-.vs/PA9/FileContentIndex/50e51367-764e-4afc-aacc-7227c4dce574.vsidx
-.vs/PA9/FileContentIndex/1beaeef5-125f-4a32-bf4b-8687b32e64b9.vsidx
-.vs/PA9/FileContentIndex/80bdf377-d9a1-4f4d-983b-da4b700b637b.vsidx
-.vs/PA9/v17/ipch/AutoPCH/1c2c172ecf0c491e/MAIN.ipch
-.vs/PA9/FileContentIndex/898e1a42-ca0a-4d5b-847a-cf66c4284336.vsidx
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio Files
+Debug
+Release
+*.suo
+*.csproj.user
+*.vbproj.user
+ipch
+*sdf
