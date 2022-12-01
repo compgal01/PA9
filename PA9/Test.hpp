@@ -15,8 +15,13 @@
 #include <random>
 #include <Windows.h>
 #include <time.h>
+#include "Grid.hpp"
 
 // Test function that demonstrates a visualization of selection sort for the purposes of checking and understanding 
 // the graphics library
 // Programmer: Drew Evensen
 void graphicsTest();
+
+// Test function prints the grid to the screen
+// Programmer: Drew Evensen
+void printGridTest();

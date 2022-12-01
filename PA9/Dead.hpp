@@ -9,7 +9,9 @@
  * Description:																   *
  *******************************************************************************/
 
-class Dead
+#include "Cell.hpp"
+
+class Dead : public Cell
 {
 
 };

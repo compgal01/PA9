@@ -9,7 +9,9 @@
  * Description:																   *
  *******************************************************************************/
 
-class Alive
+#include "Cell.hpp"
+
+class Alive : public Cell
 {
 
 };

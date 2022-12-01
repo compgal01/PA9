@@ -9,6 +9,8 @@
  * Description:																   *
  *******************************************************************************/
 
+#include <SFML/Graphics.hpp> // External Library
+
 class Cell
 {
 
