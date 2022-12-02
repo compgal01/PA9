@@ -122,7 +122,7 @@ void graphicsTest()
 void printGridTest()
 {
 	// Instantiate a new test grid and window
-	Grid test(5, 5);
+	Grid test(25, 25);
 	sf::RenderWindow window(sf::VideoMode(500, 500), "Grid Test");
 
 	while (window.isOpen())

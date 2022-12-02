@@ -17,9 +17,9 @@ class Grid
 public:
 	// Constructor
 	// Takes the number of cells in each x and y direction
-	Grid(int x = 1, int y = 1);
+	Grid(int xCells = 1, int yCells = 1);
 
-	// Destructor
+	// Destructor - PROBLEM: MEMORY LEAK
 	~Grid();
 
 	// Print the grid to the given window
@@ -29,6 +29,10 @@ private:
 	// Data Members
 	// Dynamic 2D array of cells
 	Cell** cells;
+	//Number of items in each array
+	int collumnCellsCount;
+	int rowCellsCount;
+	int dividerCount;
 	// Array of rectangles to display the grid as line dividers
 	sf::RectangleShape* dividers;
 };
